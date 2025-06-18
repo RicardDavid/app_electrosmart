@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:veterinaria/themes/app_theme.dart';
+import 'package:electrosmart/themes/app_theme.dart';
 
 class Subtitle extends StatelessWidget {
   final String titulo;

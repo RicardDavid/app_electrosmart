@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:veterinaria/models/menu_option.dart';
-import 'package:veterinaria/screens/screens.dart';
+import 'package:electrosmart/models/menu_option.dart';
+import 'package:electrosmart/screens/screens.dart';
 
 class UserRoutes {
   static final menuOptions = <MenuOption>[

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:veterinaria/models/menu_option.dart';
+import 'package:electrosmart/models/menu_option.dart';
 
 class AppRoutes {
   static final initialRoute = "home";

@@ -1,4 +1,4 @@
-# veterinaria
+# ElectroSmart
 
 A new Flutter project.
 

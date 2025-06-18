@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math' as math;
-import 'package:veterinaria/widgets/custom_bottom_navigation.dart';
-import 'package:veterinaria/themes/app_theme.dart';
-import 'package:veterinaria/widgets/subtitle.dart';
+import 'package:electrosmart/widgets/custom_bottom_navigation.dart';
+import 'package:electrosmart/themes/app_theme.dart';
+import 'package:electrosmart/widgets/subtitle.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

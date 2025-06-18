@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:veterinaria/routes/user_routes.dart';
-import 'package:veterinaria/themes/app_theme.dart';
-import 'package:veterinaria/widgets/custom_bottom_navigation.dart';
+import 'package:electrosmart/routes/user_routes.dart';
+import 'package:electrosmart/themes/app_theme.dart';
+import 'package:electrosmart/widgets/custom_bottom_navigation.dart';
 
 class AccountScreen extends StatelessWidget {
   const AccountScreen({super.key});

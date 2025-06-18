@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../widgets/custom_bottom_navigation.dart'; // si usas el widget de navegación
+import '../widgets/custom_bottom_navigation.dart';
 
 class CartScreen extends StatelessWidget {
   const CartScreen({super.key});
