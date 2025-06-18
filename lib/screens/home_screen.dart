@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen>
     return Scaffold(
       appBar: AppBar(
         title: const Text("ElectroSmart"),
-        backgroundColor: AppTheme.azul950,
+        backgroundColor: const Color.fromARGB(255, 39, 131, 116),
       ),
       body: SafeArea(
         child: SingleChildScrollView(
@@ -47,7 +47,7 @@ class _HomeScreenState extends State<HomeScreen>
                 child: FadeInImage(
                   height: 280,
                   image: const NetworkImage(
-                    "https://facultades.unab.cl/cienciasdelavida/wp-content/uploads/2022/02/Medicina-Veterinaria.webp",
+                    "https://img.pikbest.com/wp/202345/listen-music-silhouette-of-a-person-wearing-headphones-and-listening-to_9585276.jpg!w700wp",
                   ),
                   placeholder: const AssetImage("assets/noimage.jpeg"),
                   fit: BoxFit.cover,
@@ -61,16 +61,28 @@ class _HomeScreenState extends State<HomeScreen>
                   padding: const EdgeInsets.all(5),
                   children: const [
                     _Servicio(
-                      titulo: "Consulta",
-                      imagen: "assets/servicios/consulta.jpg",
+                      titulo: "Teclados",
+                      imagen: "assets/servicios/teclado1.jpg",
                     ),
                     _Servicio(
-                      titulo: "Vacunación",
-                      imagen: "assets/servicios/vacunacion.jpg",
+                      titulo: "Mouse",
+                      imagen: "assets/servicios/mouse11.jpg",
                     ),
                     _Servicio(
-                      titulo: "Peluquería",
-                      imagen: "assets/servicios/peluqueria.jpg",
+                      titulo: "Audifonos",
+                      imagen: "assets/servicios/audifo1.jpg",
+                    ),
+                    _Servicio(
+                      titulo: "Parlantes",
+                      imagen: "assets/servicios/parlante1.webp",
+                    ),
+                    _Servicio(
+                      titulo: "Soportes",
+                      imagen: "assets/servicios/parlante1.webp",
+                    ),
+                    _Servicio(
+                      titulo: "Monitores",
+                      imagen: "assets/servicios/parlante1.webp",
                     ),
                   ],
                 ),

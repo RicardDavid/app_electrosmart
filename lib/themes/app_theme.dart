@@ -12,11 +12,11 @@ class AppTheme {
     primaryColor: azul900,
     scaffoldBackgroundColor: azul50,
     bottomNavigationBarTheme: BottomNavigationBarThemeData(
-      backgroundColor: azul900,
+      backgroundColor: const Color.fromARGB(255, 39, 131, 116),
       selectedItemColor: blanco,
       unselectedItemColor: blanco,
     ),
-    appBarTheme: AppBarTheme(color: azul950, foregroundColor: blanco),
+    appBarTheme: AppBarTheme(color: const Color.fromARGB(255, 39, 131, 116), foregroundColor: blanco),
     listTileTheme: ListTileThemeData(
       iconColor: const Color.fromARGB(255, 107, 26, 15),
       titleTextStyle: TextStyle(
