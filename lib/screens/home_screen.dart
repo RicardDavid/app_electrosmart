@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen>
     return Scaffold(
       appBar: AppBar(
         title: const Text("ElectroSmart"),
-        backgroundColor: const Color.fromARGB(255, 39, 131, 116),
+        backgroundColor: const Color(0xFF076A9D),
       ),
       body: SafeArea(
         child: SingleChildScrollView(

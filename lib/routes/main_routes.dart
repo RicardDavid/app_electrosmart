@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:electrosmart/models/menu_option.dart';
 import 'package:electrosmart/screens/screens.dart';
+import 'package:electrosmart/screens/account_screen.dart';
+import 'package:electrosmart/screens/home_screen.dart';
+import 'package:electrosmart/screens/cart_screen.dart';
 
 class MainRoutes {
   static final menuOptions = <MenuOption>[

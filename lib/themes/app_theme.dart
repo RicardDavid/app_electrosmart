@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   // Colores base
-  static const Color azul950 = Color(0xFF0A3047); // Acento (10%)
+  static const Color azul950 = Color.fromRGBO(10, 48, 71, 1); // Acento (10%)
   static const Color azul900 = Color(0xFF0F4A6B);
   static const Color azul800 = Color(0xFF0A5A82);
   static const Color azul700 = Color(0xFF076A9D); // Secundario (30%)

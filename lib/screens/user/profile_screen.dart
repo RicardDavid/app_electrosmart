@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:electrosmart/themes/app_theme.dart';
 
 class ProfileScreen extends StatelessWidget {
   const ProfileScreen({super.key});
@@ -6,22 +7,43 @@ class ProfileScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text("Datos del usuario")),
+      appBar: AppBar(
+        title: const Text("Datos del usuario"),
+        backgroundColor: AppTheme.azul700,
+      ),
+      backgroundColor: AppTheme.azul50,
       body: SingleChildScrollView(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
           child: Column(
             children: [
+              Container(
+                margin: const EdgeInsets.only(bottom: 24),
+                child: CircleAvatar(
+                  radius: 40,
+                  backgroundColor: AppTheme.azul950,
+                  child: const Icon(
+                    Icons.person,
+                    color: Colors.white,
+                    size: 40,
+                  ),
+                ),
+              ),
               TextFormField(
                 initialValue: "José Antonio",
                 decoration: InputDecoration(
                   hintText: "Nombres",
                   labelText: "Nombres",
                   helperText: "Nombres del usuario",
-                  suffixIcon: Icon(Icons.switch_account_outlined),
+                  suffixIcon: const Icon(
+                    Icons.switch_account_outlined,
+                    color: AppTheme.azul700,
+                  ),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
+                  filled: true,
+                  fillColor: Colors.white,
                 ),
                 autovalidateMode: AutovalidateMode.onUserInteraction,
                 validator: (value) {
@@ -31,7 +53,7 @@ class ProfileScreen extends StatelessWidget {
                   return value.length < 2 ? "No hay datos" : null;
                 },
                 onChanged: (value) {
-                  print(value);
+                  // lógica de guardado
                 },
               ),
             ],
